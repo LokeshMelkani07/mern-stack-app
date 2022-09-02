@@ -67,11 +67,12 @@ router.post("/register", jsonParser, (req, res) => {
   //   res.json({ message: req.body });
   //   res.send("register page");
 });
-*/
 
+// Delete this, this is not needed after deployment
 router.get("/", (req, res) => {
   res.send("Hello world from auth");
 });
+*/
 
 // Adding Data to Database using Async/Await
 router.post("/register", jsonParser, async (req, res) => {
